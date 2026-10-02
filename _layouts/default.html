@@ -12,30 +12,56 @@
   font-weight: 400;
   font-style: normal;
 }
+<ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
 
 </style>
 <body>
-<nav style="
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;">
-  </nav>
-  <nav ul style="
-  list-style-type: none;
-  padding: 0;">
-  </nav>
+
 <header style="background-color:03373A;
     min-height:5%;
     padding-top: 5%;
     padding-bottom: 5%;">
     <h1 style="color:#dac4d0;font-family:Autour One; font-size:200%; text-align:center;">My Portfolio</h1>
 </header>
+<nav class="navbar">
+    <div class="logo">MyWebsite</div>
+    <ul class="nav-links"ul=
+  "list-style-type: none;
+  margin: 0;
+  padding: 0;">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    
+  </nav>
 <aside style="
   float: left;
   padding: 20px;
-  width: 50%;
+  width: 45%;
   background-color: #757474;
   height: 300px;">
   <h1 style="background-color: aliceblue;"><b>Hello People!</b></h1>
@@ -44,7 +70,7 @@
 <aside style="
   float: right;
   padding: 20px;
-  width: 50%;
+  width: 45%;
   background-color: #9695b0;
   height: 300px;">
   <h1 style="background-color:violet;"> HIIIIII</h1>
